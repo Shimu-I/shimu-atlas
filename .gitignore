@@ -1,0 +1,25 @@
+# Personal data: never commit books, notes, databases or secrets
+data/
+models/
+*.pdf
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
