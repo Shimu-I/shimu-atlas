@@ -1,0 +1,45 @@
+/* Shimu Atlas design tokens — "Cherry Blossom" palette.
+   Source palette:  Raisin Black #2B181E · Silver Pink #C8A8B6 · Desert Sand #ECC3A5
+                    New York Pink #D88084 · Deep Puce #A65665
+   Text pairings follow the palette card (heading colour per swatch): pink on Raisin Black,
+   plum on Silver Pink, navy on Desert Sand, maroon on New York Pink, peach on Deep Puce.
+   Values marked "derived" are tints/shades made for readability; they are not in the card. */
+:root {
+  --bg: #f9efe6;            /* derived: light tint of Desert Sand */
+  --sidebar: #ecc3a5;       /* Desert Sand */
+  --surface: #fffaf5;       /* derived */
+  --surface-2: #f4e0d0;     /* derived */
+  --accent: #a65665;        /* Deep Puce */
+  --accent-soft: #d88084;   /* New York Pink */
+  --accent-text: #843a4a;   /* derived: darker Deep Puce for text on light */
+  --on-accent: #fff3e8;     /* derived: pale peach, pairs with Deep Puce */
+  --heading: #1c3247;       /* navy, the card's heading colour on Desert Sand */
+  --text: #2b181e;          /* Raisin Black */
+  --text-muted: #6a4a57;    /* derived */
+  --border: #e0c6b4;
+  --border-strong: #9a7685;
+  --focus: #8c3f50;
+  --danger: #a3261f;
+  --reading-bg: #fdf6ef;
+  --reading-text: #2b181e;
+}
+
+[data-theme="dark"] {
+  --bg: #2b181e;           /* Raisin Black */
+  --sidebar: #231319;      /* derived: deeper Raisin Black */
+  --surface: #38232b;      /* derived */
+  --surface-2: #442d36;    /* derived */
+  --accent: #d88084;       /* New York Pink */
+  --accent-soft: #a65665;  /* Deep Puce */
+  --accent-text: #e39eb1;  /* the card's pink heading colour on Raisin Black */
+  --on-accent: #2b181e;    /* Raisin Black on New York Pink */
+  --heading: #e39eb1;
+  --text: #e5dade;         /* the card's value colour on Raisin Black */
+  --text-muted: #c8a8b6;   /* Silver Pink */
+  --border: #4d343e;
+  --border-strong: #92707e;
+  --focus: #e39eb1;
+  --danger: #ff9a8a;
+  --reading-bg: #301c23;
+  --reading-text: #e5dade;
+}
