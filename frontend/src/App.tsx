@@ -35,7 +35,7 @@ export default function App() {
 
   if (auth.state === "loading") return <div role="status" className="p-8 text-muted">Loading…</div>;
   if (auth.state === "offline")
-    return <main className="p-8"><h1 className="font-serif text-xl">Cannot reach the server</h1>
+    return <main className="p-8"><h1 className="font-display text-2xl text-heading">Cannot reach the server</h1>
       <p className="mt-2 text-muted">Start the backend (<code>uvicorn backend.main:app</code>) and reload this page.</p></main>;
   if (auth.state === "setup" || auth.state === "login") return <AuthPage setup={auth.state === "setup"} onDone={refresh} />;
 

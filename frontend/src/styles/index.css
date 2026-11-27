@@ -1,5 +1,6 @@
 @import "tailwindcss";
-@import "@fontsource-variable/inter";
+@import "@fontsource-variable/dm-sans";
+@import "@fontsource/dm-serif-display";
 @import "@fontsource/source-serif-4/400.css";
 @import "@fontsource/source-serif-4/600.css";
 @import "./tokens.css";
@@ -15,13 +16,15 @@
   --color-accent-soft: var(--accent-soft);
   --color-accent-text: var(--accent-text);
   --color-on-accent: var(--on-accent);
+  --color-heading: var(--heading);
   --color-fg: var(--text);
   --color-muted: var(--text-muted);
   --color-line: var(--border);
   --color-line-strong: var(--border-strong);
   --color-danger: var(--danger);
-  --font-sans: "Inter Variable", system-ui, sans-serif;
-  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-sans: "DM Sans Variable", system-ui, sans-serif;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-reading: "Source Serif 4", Georgia, serif;
   --radius-control: 6px;
   --radius-panel: 8px;
 }

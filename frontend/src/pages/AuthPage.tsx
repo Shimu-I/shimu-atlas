@@ -31,7 +31,7 @@ export function AuthPage({ setup, onDone }: { setup: boolean; onDone: () => void
     <main className="flex min-h-dvh items-center justify-center px-4">
       <form onSubmit={submit} className="w-full max-w-sm rounded-panel border border-line bg-surface p-6">
         <BrandIcon aria-hidden className="mb-3 text-accent-text" size={26} />
-        <h1 className="font-serif text-2xl font-semibold">Shimu Atlas</h1>
+        <h1 className="font-display text-3xl text-heading">Shimu Atlas</h1>
         <p className="mb-5 mt-1 text-sm text-muted">
           {setup ? "Create your owner account. This is the only account and can be made once." : "Sign in to your library."}
         </p>

@@ -6,7 +6,7 @@
 ## Phase 1 — Functional library
 - [x] **1a Scaffold** — PR #1
 - [ ] **1b Design system and app shell** — in review
-  - [x] Tokens, light + dark; contrast checker (`npm run check:contrast`) passes
+  - [x] Tokens (Cherry Blossom palette), light + dark; contrast checker passes
   - [x] Shell: sidebar (rail on tablet), mobile bottom nav + drawer, breadcrumbs, skip link
   - [x] Ctrl/Cmd+K command palette (pages, theme, sign out)
   - [x] Components: Button, Input, Dialog, Toast, EmptyState, PageHeader

@@ -148,7 +148,7 @@ Assumptions: 19 books, ~500 pages average.
 You asked for design system + **Dashboard, Library, PDF Reader** first. Proposed Phase 1 split into small, individually approvable steps:
 
 1. **1a — Project scaffold**: repo, backend skeleton, DB + migrations, auth, health check.
-2. **1b — Design system**: tokens (your forest-green palette, contrast-checked), typography, app shell, core components (button, input, dialog, toast, command palette skeleton).
+2. **1b — Design system**: tokens (palette contrast-checked; now the Cherry Blossom palette, see DESIGN_SYSTEM.md), typography, app shell, core components (button, input, dialog, toast, command palette skeleton).
 3. **1c — Library**: add book (PDF upload, SHA-256 dedupe, metadata edit), grid/list, search, filters, status.
 4. **1d — PDF Reader**: PDF.js, page tracking, progress sync with conflict handling, bookmarks.
 5. **1e — Dashboard**: only real data (continue reading, recent books, progress). No fake stats.

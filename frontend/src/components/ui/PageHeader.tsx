@@ -29,7 +29,7 @@ export function PageHeader({
       {crumbs && <Breadcrumbs items={crumbs} />}
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="font-serif text-2xl font-semibold tracking-tight md:text-3xl">{title}</h1>
+          <h1 className="font-display text-3xl tracking-tight text-heading md:text-4xl">{title}</h1>
           {subtitle && <p className="mt-1 max-w-prose text-muted">{subtitle}</p>}
         </div>
         {actions}

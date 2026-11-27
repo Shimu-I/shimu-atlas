@@ -61,7 +61,7 @@ Skill and concept status history is stored as events, so "progress over time" is
 
 ## 6. UI direction
 
-Editorial layout in the existing design system: a top band of five key figures, a daily heatmap, trend lines, subject distribution, then lower sections for most-read books, topics, career matrices and a searchable query history. Charts use the forest-green tokens, have text alternatives and an accessible table view, and respect reduced motion. Date filters: 7 / 30 / 90 days, this year, all time, custom.
+Editorial layout in the existing design system: a top band of five key figures, a daily heatmap, trend lines, subject distribution, then lower sections for most-read books, topics, career matrices and a searchable query history. Charts use the design-system tokens (docs/DESIGN_SYSTEM.md), have text alternatives and an accessible table view, and respect reduced motion. Date filters: 7 / 30 / 90 days, this year, all time, custom.
 
 ## 7. What this changes in earlier phases
 

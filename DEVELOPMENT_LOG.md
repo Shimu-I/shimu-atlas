@@ -17,3 +17,10 @@
 - Every page is a real empty state; no sample books, statistics or recommendations.
 - Analytics module added to the roadmap (docs/ANALYTICS_PLAN.md). Its main effect today: the reader (1d) must record active-time reading sessions from the first release.
 - Verified: type-check, production build, 9 tests, and screenshots at 360/390/768/1024/1440 in both themes against the live backend.
+
+## Phase 1b (revision) — Cherry Blossom palette and fonts
+- Replaced the forest-green identity with the supplied pink palette (Raisin Black, Silver Pink, Desert Sand, New York Pink, Deep Puce). Text pairings were sampled from the card itself; see docs/DESIGN_SYSTEM.md.
+- Dark theme uses Raisin Black with pink headings; light theme uses a Desert Sand sidebar with navy headings and Deep Puce accents.
+- Fonts: DM Serif Display (headings), DM Sans (interface), Source Serif 4 kept for reading. Inter removed.
+- Contrast checker extended to 23 pairings per theme (headings, sidebar, errors, reading surface). One link colour was darkened to pass.
+- Dependencies: frontend already on latest majors; backend minor updates applied (fastapi, httpx, pydantic).

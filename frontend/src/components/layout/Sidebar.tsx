@@ -8,7 +8,7 @@ export function Brand({ showText }: { showText: boolean }) {
       <BrandIcon aria-hidden size={22} className="shrink-0 text-accent-text" />
       {showText && (
         <div className="leading-tight">
-          <div className="font-serif text-lg font-semibold">Shimu Atlas</div>
+          <div className="font-display text-xl text-heading">Shimu Atlas</div>
         </div>
       )}
     </div>
