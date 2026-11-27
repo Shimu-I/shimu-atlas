@@ -5,8 +5,8 @@
 A local-first personal library, PDF reader, notes system and (later) AI research assistant.
 Single user, runs on your own machine, no paid APIs. Personal data (`data/`, PDFs, databases, `.env`) is git-ignored.
 
-**Status:** Phase 1a — backend scaffold (config, SQLite, migrations, single-user auth, health check).
-Architecture and decisions: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Progress: [TASKS.md](TASKS.md), [DEVELOPMENT_LOG.md](DEVELOPMENT_LOG.md).
+**Status:** Phase 1b — design system and app shell on top of the 1a backend. No books or reading features yet.
+Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Analytics plan: [docs/ANALYTICS_PLAN.md](docs/ANALYTICS_PLAN.md). Progress: [TASKS.md](TASKS.md), [DEVELOPMENT_LOG.md](DEVELOPMENT_LOG.md).
 
 ## Setup (Ubuntu)
 
@@ -20,6 +20,18 @@ uvicorn backend.main:app --host 127.0.0.1 --port 8000
 
 Open http://127.0.0.1:8000/api/health, or http://127.0.0.1:8000/docs for the API explorer.
 The server binds to `127.0.0.1` only. Remote access will go through Tailscale (Phase 7).
+
+## Frontend
+
+```bash
+cd frontend && npm install
+npm run dev            # http://localhost:5173 (proxies /api to the backend on :8000)
+npm test               # component tests
+npm run check:contrast # WCAG contrast check for the design tokens
+npm run build
+```
+
+Run the backend first (above), then the frontend. On first visit you create the owner account.
 
 ## First run
 
